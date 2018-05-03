@@ -1,16 +1,15 @@
 #include "core.h"
-#include "logger.h"
 
-#define ___LOG_DEBUG
 #define LOG_TAG "core"
-#include "logger.h"
-#include <iostream>
+#include "config.h"
 
 namespace my_main_project
 {
     void test()
     {
-        LOGD("TEST");
-        std::cout << "HI" << std::endl;
+        LOGD("Debug");
+        LOGI("Info");
+        LOGW("Warning");
+        LOGE("Error");
     }
 }   /* namespace my_main_project */

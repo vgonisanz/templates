@@ -25,7 +25,7 @@ include(CheckCXXSourceRuns)
 
 # Project step III: Configure MAIN project
 # ------------------------------------------------------------------------------------------------------
-set(PROJ_MAIN_NAME my_main_project)   # memdymedition
+set(PROJ_MAIN_NAME my_main_project)
 
 SET(${PROJ_MAIN_NAME}_PATH_MAIN 	     ${CMAKE_SOURCE_DIR} 					             CACHE PATH "This directory contains initial Path" )
 SET(${PROJ_MAIN_NAME}_PATH_LIBS 	     ${PROJECT_BINARY_DIR}/bin				             CACHE PATH "This directory contains all libs" )

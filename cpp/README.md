@@ -1,15 +1,15 @@
-# Mem
+# YOUR_CPP_PROJECT
 
-This project is a draft to test how edit memory during a executable is running though scanmem/gameconqueror in GNU/Linux. The equivalent program in Windows is CheatEngine.
+This project is a draft to create a cpp project
 
 # Dependencies
 
-## scanmem/gameconqueror
+## xxx
 
 Install in you computer. In Fedora:
 
 ```
-sudo dnf install scanmem gameconqueror
+sudo dnf install xxx
 ```
 
 # Compiling
